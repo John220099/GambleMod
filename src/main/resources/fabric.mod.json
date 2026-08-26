@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "gamble",
+  "version": "${version}",
+  "name": "GambleMod",
+  "description": "idk.",
+  "authors": ["John220099"],
+  "license": "MIT",
+  "icon": "assets/GambleMod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.john220099.GambleMod.GambleMod"
+    ],
+    "main": [
+      "dev.john220099.GambleMod.GambleMod"
+    ]
+  },
+  "mixins": [
+    "GambleMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
