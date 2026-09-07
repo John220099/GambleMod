@@ -24,6 +24,9 @@ public class ModuleManager {
         register(new FullBright());
         register(new CameraFix());
         register(new ESP());
+        register(new ChestStealer());
+        register(new AimAssist());
+        register(new HitBox());
 
         modules.sort(Comparator.comparing(Module::getName));
     }

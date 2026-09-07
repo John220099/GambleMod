@@ -13,6 +13,7 @@
     "MixinParticleEngine",
     "PauseScreenMixin",
     "TitleScreenMixin",
+    "EntityMixin",
     "accessors.KeyMappingAccessor",
     "accessors.MinecraftAccessor"
   ],
