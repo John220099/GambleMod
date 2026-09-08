@@ -27,6 +27,7 @@ public class ModuleManager {
         register(new ChestStealer());
         register(new AimAssist());
         register(new HitBox());
+        register(new Reach());
 
         modules.sort(Comparator.comparing(Module::getName));
     }

@@ -40,7 +40,8 @@ public class TriggerBot extends Module {
         Entity target = entityHit.getEntity();
         if (!isValidTarget(target)) return;
 
-        if (mc.player.distanceTo(target) > 3.0f) return;
+        double maxReach = mc.player.entityInteractionRange();
+        if (mc.player.distanceTo(target) > maxReach) return;
         if (!mc.player.hasLineOfSight(target)) return;
 
         pressKey(mc.options.keyAttack);
