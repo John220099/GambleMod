@@ -28,6 +28,7 @@ public class ModuleManager {
         register(new AimAssist());
         register(new HitBox());
         register(new Reach());
+        register(new AutoWalk());
 
         modules.sort(Comparator.comparing(Module::getName));
     }

@@ -8,14 +8,14 @@ A simple semi blatant client that use random function to bypass anticheats.
 
 ## Trust me bro benchmarks
 
-| Tested Anticheats | flags | 
-|-------------------|-------|
-| Grim AC | reach/hitbox/fast-use |           
-| Intave | Triggerbot (high cps) |
-| Karhu | Reach |
-| cubecraft | little to nothing |
-| Vulcan | nothing |
-| Matrix | flags everything |
+| Tested Anticheats | flags                 | 
+|-------------------|-----------------------|
+| Grim AC           | reach/hitbox/fast-use |           
+| Intave            | Triggerbot (high cps) |
+| Karhu             | Reach                 |
+| cubecraft         | little to nothing     |
+| Vulcan            | nothing               |
+| Matrix            | flags everything      |
 
 ---
 
