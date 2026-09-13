@@ -18,7 +18,7 @@ public class TriggerBot extends Module {
     private long nextAttackTime = 0;
 
     public TriggerBot() {
-        super("TriggerBot", "Heal other players");
+        super("TriggerBot", "Heal other players.");
     }
 
     @Override

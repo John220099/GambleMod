@@ -5,7 +5,7 @@ import dev.john220099.GambleMod.module.Module;
 public class AutoWalk extends Module {
 
     public AutoWalk() {
-        super("AutoWalk", "Me to lazy to to press walk");
+        super("AutoWalk", "Me to lazy to to press walk.");
     }
 
     @Override

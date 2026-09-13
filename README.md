@@ -22,7 +22,7 @@ A simple semi blatant client that use random function to bypass anticheats.
 ## Features 
 
     Modules :
-      - Triggerbot = Heal other players
+      - Triggerbot = Heal other players.
       - AutoSprint = Me to lazy to press sprint.
       - Bridge Assist = Me to lazy to shift.
       - FastUse = Use stuff faster.
@@ -37,5 +37,6 @@ A simple semi blatant client that use random function to bypass anticheats.
       - AimAssist = Look funny at things.
       - Hitbox = XXL is still to small. (Ban SpeedRun Grim AC)
       - Reach = Long arms (Ban SpeedRun Grim AC & Karhu AC)
+      - AutoWalk = Me to lazy to to press walk.
 
 ---
