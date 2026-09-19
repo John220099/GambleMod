@@ -7,7 +7,6 @@ import net.minecraft.client.KeyMapping;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 
@@ -57,7 +56,7 @@ public class TriggerBot extends Module {
     private boolean isHoldingWeapon() {
         assert mc.player != null;
         var stack = mc.player.getMainHandItem();
-        return stack.is(ItemTags.SWORDS) || stack.getItem() instanceof AxeItem;
+        return stack.is(ItemTags.SWORDS) || stack.is(ItemTags.AXES);
     }
 
     private void pressKey(KeyMapping key) {
