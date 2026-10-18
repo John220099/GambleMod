@@ -29,6 +29,7 @@ public class ModuleManager {
         register(new HitBox());
         register(new Reach());
         register(new AutoWalk());
+        register(new CreativeFly());
 
         modules.sort(Comparator.comparing(Module::getName));
     }
