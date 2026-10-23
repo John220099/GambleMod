@@ -30,6 +30,7 @@ public class ModuleManager {
         register(new Reach());
         register(new AutoWalk());
         register(new CreativeFly());
+        register(new Disabler());
 
         modules.sort(Comparator.comparing(Module::getName));
     }
